@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hp.languagesearchbackport.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "LanguageEntryMixin",
+    "LanguageSelectionListMixin",
+    "LanguageSelectScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
